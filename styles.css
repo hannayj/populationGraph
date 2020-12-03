@@ -1,0 +1,43 @@
+.content {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 75vw;
+}
+
+.textinput {
+    margin: 10px 0px 10px 0px;
+}
+
+.countryInfo {
+    text-align: center;
+    display: flex;
+}
+
+#countryName, #region, #capital {
+    margin: 0;
+}
+
+#countryName {
+    font-weight: bold;
+}
+
+.columnLeft {
+    text-align: right;
+    flex: 50%;
+    padding: 5px;
+}
+
+.columnRight {
+    text-align: left;
+    flex: 50%;
+    padding: 5px;
+}
+
+#flag {
+    max-height: 70px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
